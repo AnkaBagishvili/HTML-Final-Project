@@ -1,6 +1,6 @@
 .container {
-    width: 1440px;
-    max-width: 100%;
+    max-width: 1440px;
+    width: 100%;
     margin: auto;
 }
 
@@ -109,4 +109,39 @@ header {
     transform: translateY(-50%);
     left: 25%;
     transform: translateX(-50%);
+}
+
+/* Section3 */
+.section3 {
+    padding: 96px 94px;
+    background-color: #1A1A1A;
+}
+
+.section3_title {
+    color: #05BCCA;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* .section3_line {
+    width: 187.267px;
+    height: 2px;
+    background: #05BCCA;
+} */
+
+.section3_cards {
+    display: flex;
+    column-gap: 20px;
+}
+
+.section3_card1{
+    border: 1px solid #05BCCA;
+background: #2C4246;
+width: 298px;
+/* justify-content: center; */
 }
