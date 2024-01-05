@@ -139,9 +139,67 @@ header {
     column-gap: 20px;
 }
 
-.section3_card1{
+.section3_card {
     border: 1px solid #05BCCA;
-background: #2C4246;
-width: 298px;
-/* justify-content: center; */
+    background: #2C4246;
+    width: 298px;
+    height: 400px;
+    padding: 8px 8px 16px 8px;
+}
+
+.active {
+    box-shadow: 0px 0px 8px 4px #05BCCACC;
+}
+
+.section3_img {
+    height: 290px;
+    margin-bottom: 16px;
+
+}
+
+.section3_card_title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D9D9D9;
+    margin-bottom: 16px;
+}
+
+.section3_reviews {
+    display: flex;
+    align-items: center;
+}
+
+.stars {
+    display: flex;
+    column-gap: 4px;
+}
+
+.fa-star {
+    font-size: 16px;
+    color: #C46A2B;
+}
+
+.section3_minitext {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A1C3C9;
+    margin-inline: 8px 73px;
+}
+
+.price {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #05BCCA;
 }
