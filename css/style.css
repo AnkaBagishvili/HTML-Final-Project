@@ -203,3 +203,28 @@ header {
     text-align: left;
     color: #05BCCA;
 }
+
+/* Section4 */
+.section4{
+    background-image: url(../images/section4_cover.png);
+    height: 320px;
+}
+.section4_div{
+    display: flex;
+    padding: 107px 480px;
+    background-color: blueviolet;
+}
+.section4_title{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+color: #05BCCA;
+}
+
+.searchbar{
+    height: 48px;
+    width: 480px;
+    background-color: #C46A2B;
+}
