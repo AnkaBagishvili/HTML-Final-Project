@@ -1,16 +1,25 @@
 .container {
-    max-width: 1440px;
-    width: 100%;
+    width: min(100%, 1440px);
     margin: auto;
+    padding-top: 99px;
 }
+
+/* HOME */
 
 /* Header */
 header {
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     background: #012426;
     padding: 16px 94px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .burger_header {
@@ -205,26 +214,200 @@ header {
 }
 
 /* Section4 */
-.section4{
+.section4 {
     background-image: url(../images/section4_cover.png);
     height: 320px;
-}
-.section4_div{
-    display: flex;
     padding: 107px 480px;
-    background-color: blueviolet;
-}
-.section4_title{
-    font-family: Inter;
-font-size: 32px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0em;
-color: #05BCCA;
 }
 
-.searchbar{
+.section4_title {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #05BCCA;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.searchbar {
     height: 48px;
-    width: 480px;
-    background-color: #C46A2B;
+    border-radius: 8px;
+    border: 1px solid #F5F5F5;
+    background: rgba(44, 66, 70, 0.80);
+}
+
+.searchbar_texts {
+    display: flex;
+    align-items: center;
+    column-gap: 240px;
+    margin-left: 8px;
+}
+
+.searchbar_email {
+    color: #A1C3C9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.subscribe {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    border-radius: 0px 8px 8px 0px;
+    background: #05BCCA;
+    padding: 15px 14px 14px 14px;
+    display: flex;
+}
+
+/* Footer */
+footer {
+    padding: 48px 306px 64px 306px;
+    background: #2C4246;
+}
+
+.footer_div {
+    display: flex;
+    column-gap: 223px;
+}
+
+.footer_li {
+    display: flex;
+    row-gap: 8px;
+}
+
+.footer_titles {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footer_nav1_a {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.footer_nav2_a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_media_nav {
+    display: flex;
+    column-gap: 16px;
+}
+
+.fmedia {
+    font-size: 32px;
+    color: #D9D9D9;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.copyright_img {
+    margin-right: 4px;
+}
+
+
+/* CATALOG */
+
+/* Section1
+ */
+.catalog_section1 {
+    display: flex;
+    width: 1440px;
+    height: 145px;
+    padding: 36px 444px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-top: 2px solid #05BCCA;
+    background: #1A1A1A;
+}
+
+.pages_div {
+    display: flex;
+}
+
+.pages_div_titles {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    border: 1px solid #05BCCA;
+    padding: 18px 24px;
+}
+
+.background {
+    border: 1px solid #05BCCA;
+    background: #A1C3C9;
+    color: #2C4246;
+}
+
+
+/* Section2 */
+.catalog_section2 {
+    background: #012426;
+    padding: 96px 94px;
+}
+
+.catalog_section2_header {
+    display: flex;
+    column-gap: 859px;
+}
+
+.catalog_section2_header_p1 {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.catalog_section2_header_p1_title {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.catalog_section2_header_p1_img {
+    width: 32px;
+    height: 32px;
+}
+
+.catalog_section2_header_p1_title2 {
+    color: #2C4246;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 4px;
+background: #A1C3C9;
 }
