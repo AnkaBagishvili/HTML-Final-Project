@@ -482,23 +482,20 @@ footer {
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;  
+    font-weight: 400;
     line-height: 24px;
 }
 
-.right{
+.right {
     order: 1;
     border-radius: 8px;
-background: #05BCCA;
+    background: #05BCCA;
 }
-
-
-
-
 
 
 /* CONTACT */
 /* Section1 */
+
 .contact_section1 {
     background-image: url(../images/contact_cover.png);
     height: 720px;
@@ -515,11 +512,47 @@ background: #05BCCA;
     color: #FFFFFF;
     height: 64px;
     width: 616px;
+    margin-bottom: 40px;
 }
 
 .contact_info_section {
     display: flex;
-    height: 150px;
+    column-gap: 228px;
+    display: flex;
     width: 616px;
+    padding: 35px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 228px;
+    background: #2C4246;
+}
 
+.contact {
+    margin-bottom: 24px;
+    display: flex;
+    column-gap: 16px;
+}
+
+#mobile {
+    margin: 0 7px 0 2px;
+}
+
+.contact_mobile {
+    display: flex;
+    align-items: center;
+}
+
+.contact_text {
+    color: #D9D9D9;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact_location_img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
 }
