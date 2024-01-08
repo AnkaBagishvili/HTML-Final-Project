@@ -134,14 +134,13 @@ header {
     font-weight: 700;
     line-height: 52px;
     text-align: center;
-    margin-bottom: 60px;
 }
 
-/* .section3_line {
-    width: 187.267px;
-    height: 2px;
-    background: #05BCCA;
-} */
+.section3_line {
+    border: 2px solid #05BCCA;
+    width: 187.27px;
+    margin: 8px 0 60px 530px;
+}
 
 .section3_cards {
     display: flex;
@@ -172,7 +171,6 @@ header {
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0em;
-    text-align: left;
     color: #D9D9D9;
     margin-bottom: 16px;
 }
@@ -241,7 +239,7 @@ header {
 .searchbar_texts {
     display: flex;
     align-items: center;
-    column-gap: 240px;
+    column-gap: 250px;
     margin-left: 8px;
 }
 
@@ -252,6 +250,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
+
 }
 
 .subscribe {
@@ -263,7 +262,7 @@ header {
     line-height: 19px;
     border-radius: 0px 8px 8px 0px;
     background: #05BCCA;
-    padding: 15px 14px 14px 14px;
+    padding: 15px 23px 12px 13px;
     display: flex;
 }
 
@@ -278,11 +277,6 @@ footer {
     column-gap: 223px;
 }
 
-.footer_li {
-    display: flex;
-    row-gap: 8px;
-}
-
 .footer_titles {
     color: #D9D9D9;
     font-family: Inter;
@@ -290,6 +284,9 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    border-bottom: 2px solid #D9D9D9;
+    width: 80px;
+    margin-bottom: 24px;
 }
 
 .footer_nav1_a {
@@ -311,6 +308,9 @@ footer {
     line-height: 24px;
 }
 
+.mrg1{
+    margin: 8px 0;
+}
 .footer_media_nav {
     display: flex;
     column-gap: 16px;
@@ -401,6 +401,14 @@ footer {
     height: 32px;
 }
 
+.best_selling {
+    display: flex;
+    border-radius: 4px;
+    background: #A1C3C9;
+    column-gap: 33px;
+    padding-inline: 8px;
+}
+
 .catalog_section2_header_p1_title2 {
     color: #2C4246;
     font-family: Inter;
@@ -408,6 +416,55 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    border-radius: 4px;
-background: #A1C3C9;
+}
+
+/* Section3 */
+.catalog_section3 {
+    background-color: #012426;
+    padding-inline: 94px;
+    display: flex;
+}
+
+.catalog_section3_card {
+    background-color: #2C4246;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+/* Section1 */
+.contact_section1 {
+    /* background-image: url(../images/contact_cover.png); */
+    height: 720px;
+    padding: 96px 94px 115px 730px;
+}
+
+.contact_title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    height: 64px;
+    width: 616px;
+}
+.contact_info_section{
+    display: flex;
+    height: 150px;
+    width: 616px;
+    
 }
