@@ -5,40 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/cd654bc798.js" crossorigin="anonymous"></script>
     <title>CATALOG</title>
 </head>
 
 <body>
     <div class="container">
-    <!-- Header -->
-    <header>
-        <img class="burger_header" src="images/burger_header.svg">
-        <nav class="header_nav">
-            <ul class="header_ul">
-                <li class="header_li">
-                    <a class="header_li_text" href="home.html">Home</a>
-                </li>
-                <li class="header_li">
-                    <a class="header_li_text" href="catalog.html">Catalog</a>
-                </li>
-                <li class="header_li">
-                    <a class="header_li_text" href="contact.html">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+        <!-- Header -->
+        <header>
+            <img class="burger_header" src="images/burger_header.svg">
+            <img class="xmark" src="images/xmark.svg">
+            
+            <nav class="header_nav">
+                <ul class="header_ul">
+                    <li class="header_li">
+                        <a class="header_li_text" href="home.html">Home</a>
+                    </li>
+                    <li class="header_li">
+                        <a class="header_li_text" href="catalog.html">Catalog</a>
+                    </li>
+                    <li class="header_li">
+                        <a class="header_li_text" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <div class="burger_temp">
-            <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp">
-        </div></a>
+            <div class="burger_temp">
+                <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp"></a>
+            </div>
 
-        <div class="media_nav">
-            <a href=""><img src="images/search_media.svg" alt="search_media"></a>
-            <a href=""><img src="images/user_media.svg" alt="user_media"></a>
-            <a href=""><img class="cart" src="images/cart_media.svg" alt="cart"></a>
-        </div>
-    </header>
+            <div class="media_nav">
+                <a href=""><img src="images/search_media.svg" alt="search_media"></a>
+                <a href=""><img src="images/user_media.svg" alt="user_media"></a>
+                <a href=""><img class="cart" src="images/cart_media.svg" alt="cart"></a>
+            </div>
+        </header>
 
         <!-- Section1 -->
         <section class="catalog_section1">
@@ -78,7 +85,8 @@
 
         <!-- Section3 -->
         <section class="catalog_section3">
-            <div class="catalog_section3_cards">
+
+            <div class="catalog_section3_cards ">
                 <figure class="catalog_section3_card">
                     <img class="catalog_section3_img" src="images/catalog_img1.png" alt="catalog_img1">
                     <figcaption class="section3_texts">
@@ -96,7 +104,7 @@
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="catalog_section3_card">
+                <figure class="catalog_section3_card ">
                     <img class="catalog_section3_img" src="images/catalog_img2.png" alt="catalog_img2">
                     <figcaption class="section3_texts">
                         <h3 class="section3_card_title">lorem ipsum</h3>
@@ -113,7 +121,7 @@
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="catalog_section3_card">
+                <figure class="catalog_section3_card ">
                     <img class="catalog_section3_img" src="images/catalog_img3.png" alt="catalog_img3">
                     <figcaption class="section3_texts">
                         <h3 class="section3_card_title">lorem ipsum</h3>
@@ -130,7 +138,7 @@
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="catalog_section3_card">
+                <figure class="catalog_section3_card ">
                     <img class="catalog_section3_img" src="images/catalog_img4.png" alt="catalog_img4">
                     <figcaption class="section3_texts">
                         <h3 class="section3_card_title">lorem ipsum</h3>
@@ -149,7 +157,7 @@
                 </figure>
             </div>
 
-            <div class="catalog_section3_cards">
+            <div class="catalog_section3_cards none3">
                 <figure class="catalog_section3_card">
                     <img class="catalog_section3_img" src="images/catalog_img5.png" alt="catalog_img5">
                     <figcaption class="section3_texts">
@@ -219,7 +227,8 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="catalog_section3_cards">
+
+            <div class="catalog_section3_cards none2">
                 <figure class="catalog_section3_card">
                     <img class="catalog_section3_img" src="images/catalog_img10.png" alt="catalog_img9">
                     <figcaption class="section3_texts">
@@ -289,7 +298,8 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="catalog_section3_cards">
+
+            <div class="catalog_section3_cards none1">
                 <figure class="catalog_section3_card">
                     <img class="catalog_section3_img" src="images/catalog_img6.png" alt="catalog_img13">
                     <figcaption class="section3_texts">
@@ -364,81 +374,84 @@
         <section class="catalog_pages">
             <figure class="catalog_pages_arrows">
                 <img class="catalog_pages_arrows_img" src="images/catalog_pages_left.svg">
-                <figcaption class="catalog_pages_buttons" >Previous</figcaption>
+                <figcaption class="catalog_pages_buttons catalog_none">Previous</figcaption>
             </figure>
-           
+
             <h6 class="catalog_pages_list">Page 1 of 5</h6>
 
             <figure class="catalog_pages_arrows right">
-            <figcaption class="catalog_pages_buttons">Next</figcaption>
-            <img class="catalog_pages_arrows_img" src="images/catalog_pages_right.svg">
+                <figcaption class="catalog_pages_buttons catalog_none">Next</figcaption>
+                <img class="catalog_pages_arrows_img" src="images/catalog_pages_right.svg">
             </figure>
         </section>
 
-     <!-- Footer -->
-     <footer>
-        <div class="footer_div">
-            <nav class="footer_nav">
-                <h4 class="footer_titles">Brands</h4>
-                <ul class="footer_ul">
-                    <li class="footer_li">
-                        <a class="footer_nav1_a" href="">Fender</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav1_a " href="">Gibson</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav1_a" href="">Jockson</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav1_a" href="">Ibanez</a>
-                    </li>
-                </ul>
-            </nav>
+        <!-- Footer -->
+        <footer>
+            <div class="footer_div">
+                <nav class="footer_nav">
+                    <h4 class="footer_titles">Brands</h4>
+                    <ul class="footer_ul">
+                        <li class="footer_li">
+                            <a class="footer_nav1_a" href="">Fender</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav1_a " href="">Gibson</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav1_a" href="">Jockson</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav1_a" href="">Ibanez</a>
+                        </li>
+                    </ul>
+                </nav>
 
-            <nav class="footer_nav">
-                <h4 class="footer_titles">Information</h4>
-                <ul class="footer_ul">
-                    <li class="footer_li">
-                        <a class="footer_nav2_a" href="">Blog</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav2_a " href="">Delivery</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav2_a" href="">About us</a>
-                    </li>
-                </ul>
-            </nav>
+                <nav class="footer_nav">
+                    <h4 class="footer_titles">Information</h4>
+                    <ul class="footer_ul">
+                        <li class="footer_li">
+                            <a class="footer_nav2_a" href="">Blog</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav2_a " href="">Delivery</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav2_a" href="">About us</a>
+                        </li>
+                    </ul>
+                </nav>
 
-            <nav class="footer_nav">
-                <h4 class="footer_titles">Contact</h4>
-                <ul class="footer_ul">
-                    <li class="footer_li">
-                        <a class="footer_nav1_a" href="">Tbilisi, str, Rustaveli 24</a>
-                    </li>
-                    <li class="footer_li">
-                        <a class="footer_nav1_a" href="">+(32)2 56 78 98</a>
-                    </li>
-                </ul>
+                <nav class="footer_nav">
+                    <h4 class="footer_titles">Contact</h4>
+                    <ul class="footer_ul">
+                        <li class="footer_li">
+                            <a class="footer_nav1_a" href="">Tbilisi, str, Rustaveli 24</a>
+                        </li>
+                        <li class="footer_li">
+                            <a class="footer_nav1_a" href="">+(32)2 56 78 98</a>
+                        </li>
+                    </ul>
 
-                <div class="footer_media_nav">
-                    <a href=""><i class="fa-brands fa-square-facebook fmedia"></i></a>
-                    <a href=""><i class="fa-brands fa-square-whatsapp fmedia"></i></a>
-                    <a href=""><i class="fa-brands fa-square-instagram fmedia"></i></a>
-                </div>
-            </nav>
+                    <div class="footer_media_nav">
+                        <a href="https://www.facebook.com" target="_blank"><i
+                                class="fa-brands fa-square-facebook fmedia"></i></a>
+                        <a href="https://www.whatsapp.com" target="_blank"><i
+                                class="fa-brands fa-square-whatsapp fmedia"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i
+                                class="fa-brands fa-square-instagram fmedia"></i></a>
+                    </div>
+                </nav>
 
-        </div>
+            </div>
 
-        <div class="copyright">
-            <img class="copyright_img" src="images/footer_copyright.svg" alt="copyright">
-            <p class="footer_nav1_a">All right reserved.2025.</p>
-        </div>
-    </footer>
-</div>
+            <div class="copyright">
+                <img class="copyright_img" src="images/footer_copyright.svg" alt="copyright">
+                <p class="footer_nav1_a">All right reserved.2025.</p>
+            </div>
+        </footer>
+    </div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

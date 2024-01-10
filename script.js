@@ -1,4 +1,4 @@
-let burger = document.querySelector(".burger");
+let burger = document.querySelector(".burger_header");
 let xmark = document.querySelector(".xmark");
 let mobileMenu = document.querySelector(".header_nav");
 

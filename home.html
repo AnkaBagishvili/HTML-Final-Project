@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
     <script src="https://kit.fontawesome.com/cd654bc798.js" crossorigin="anonymous"></script>
     <title>HOME</title>
 </head>
@@ -13,8 +20,11 @@
 <body>
     <div class="container">
         <!-- Header -->
-        <header>
+        <header>     
+                   
             <img class="burger_header" src="images/burger_header.svg">
+            <img class="xmark" src="images/xmark.svg">
+
             <nav class="header_nav">
                 <ul class="header_ul">
                     <li class="header_li">
@@ -30,52 +40,53 @@
             </nav>
 
             <div class="burger_temp">
-                <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp">
-            </div></a>
+                <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp"></a>
+            </div>
 
             <div class="media_nav">
-                <a href=""><img src="images/search_media.svg" alt="search_media"></a>
-                <a href=""><img src="images/user_media.svg" alt="user_media"></a>
+                <a href=""><img class="cart" src="images/search_media.svg" alt="search_media"></a>
+                <a href=""><img class="cart" src="images/user_media.svg" alt="user_media"></a>
                 <a href=""><img class="cart" src="images/cart_media.svg" alt="cart"></a>
             </div>
         </header>
 
         <!-- Section1 -->
         <section class="section1">
-            <h2 class="section1_title">NEW <span class="collection">COLLECTION</span></h2>
-            <div class="arrow">
-                <i class="fa-solid fa-arrow-right"></i>
+            <div class="title_div">
+                <h2 class="section1_title">NEW <span class="collection">COLLECTION</span></h2>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
             </div>
         </section>
 
         <!-- Section2 -->
         <section class="section2">
-            <div class="section2_grid_box">
+            <div class="section2_cards1">
                 <figure class="grid_item">
-                    <img src="images/section2_img1.png" alt="section2_img1">
+                    <img class="grid_item_img" src="images/section2_img1.png" alt="section2_img1">
                     <figcaption class="section2_figcaption">Classical Guitar</figcaption>
                 </figure>
                 <figure class="grid_item">
-                    <img src="images/section2_img2.png" alt="section2_img2">
+                    <img class="grid_item_img" src="images/section2_img2.png" alt="section2_img2">
                     <figcaption class="section2_figcaption">Acoustic Guitar</figcaption>
                 </figure>
+            </div>
+            <div class="section2_cards1">
                 <figure class="grid_item">
-                    <img src="images/section2_img2.png" alt="section2_img3">
+                    <img class="grid_item_img" src="images/section2_img2.png" alt="section2_img3">
                     <figcaption class="section2_figcaption">Electric Guitar</figcaption>
                 </figure>
                 <figure class="grid_item">
-                    <img src="images/section2_img1.png" alt="section2_img4">
+                    <img class="grid_item_img" src="images/section2_img1.png" alt="section2_img1">
                     <figcaption class="section2_figcaption">Base Guitar</figcaption>
                 </figure>
+            </div>
         </section>
 
         <!-- Section3 -->
         <section class="section3">
-
             <h2 class="section3_title">Most Popular</h2>
-
-            <div class="section3_line"></div>
-
             <div class="section3_cards">
                 <figure class="section3_card">
                     <img class="section3_img" src="images/section3_img.png" alt="section3_card1">
@@ -94,7 +105,7 @@
                         </div>
                     </figcaption>
                 </figure>
-                <figure class="section3_card active">
+                <figure class="section3_card">
                     <img class="section3_img" src="images/section3_img.png" alt="section3_card1">
                     <figcaption class="section3_texts">
                         <h3 class="section3_card_title">lorem ipsum</h3>
@@ -150,13 +161,10 @@
 
         <!-- Section4 -->
         <section class="section4">
-
             <h4 class="section4_title">JOIN OUR MAILING LIST</h4>
             <div class="searchbar">
-                <div class="searchbar_texts">
                     <p class="searchbar_email">e-mail address</p>
                     <p class="subscribe">SUBSCRIBE</p>
-                </div>
             </div>
         </section>
 
@@ -208,9 +216,9 @@
                     </ul>
 
                     <div class="footer_media_nav">
-                        <a href=""><i class="fa-brands fa-square-facebook fmedia"></i></a>
-                        <a href=""><i class="fa-brands fa-square-whatsapp fmedia"></i></a>
-                        <a href=""><i class="fa-brands fa-square-instagram fmedia"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fmedia"></i></a>
+                        <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-square-whatsapp fmedia"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fmedia"></i></a>
                     </div>
                 </nav>
 

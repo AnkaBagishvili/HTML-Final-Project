@@ -1,0 +1,104 @@
+/* 320-480px */
+@media (max-width:400px) {
+    header {
+        padding: 28px 8px;
+    }
+
+    .burger_temp {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .cart {
+        width: 32px;
+        height: 32px;
+    }
+
+    .section1 {
+        padding: 32px 60px 336px 54px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section1_title {
+        font-size: 24px;
+    }
+
+    .section1_title,
+    .collection,
+    .section4_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .catalog_pages {
+        column-gap: 45px;
+    }
+
+    .catalog_none {
+        display: none;
+    }
+
+}
+
+@media (max-width:370px) {
+
+    .grid_item_img,
+    .grid_item {
+        width: 140px;
+        height: 130px;
+    }
+
+    .section2 {
+        padding: 20px 16px;
+        column-gap: 15px;
+    }
+
+    .section2_cards1 {
+        row-gap: 15px;
+    }
+
+    .catalog_section3 {
+        padding: 40px 16px;
+
+    }
+}
+
+
+
+@media (max-width:428px) {
+    .section4 {
+        row-gap: 24px;
+    }
+
+    .section2_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .searchbar {
+        column-gap: 80px;
+    }
+}
+
+@media (max-width:325px) {
+    .searchbar_email {
+        margin-left: 2px;
+    }
+}
+
+
+@media (max-width:440px) {
+    .contact_section2 {
+        padding: 32px 40px;
+    }
+
+    .contact_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    
+
+}

@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <script src="https://kit.fontawesome.com/cd654bc798.js" crossorigin="anonymous"></script>
     <title>CATALOG</title>
 </head>
@@ -15,6 +20,7 @@
         <!-- Header -->
         <header>
             <img class="burger_header" src="images/burger_header.svg">
+            <img class="xmark" src="images/xmark.svg">
             <nav class="header_nav">
                 <ul class="header_ul">
                     <li class="header_li">
@@ -30,8 +36,8 @@
             </nav>
 
             <div class="burger_temp">
-                <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp">
-            </div></a>
+                <a href="home.html"><img class="burger_temp" src="images/burger_temp.svg" alt="burger_temp"></a>
+            </div>
 
             <div class="media_nav">
                 <a href=""><img src="images/search_media.svg" alt="search_media"></a>
@@ -43,6 +49,7 @@
 
         <!-- Section1 -->
         <section class="contact_section1">
+            
             <h1 class="contact_title">Have a question? Need tech or playing support? Want to connect on social? Do it
                 here!</h1>
 
@@ -51,57 +58,44 @@
                 <div class="contact_div">
 
                     <div class="contact">
-                        <img src="images/contact_letter.svg" alt="letter">
+                        <img class="contact_img" src="images/contact_letter.svg" alt="letter">
                         <a class="contact_text" href="mailto:guitar.center@gmail.com">guitar.center@gmail.com</a>
                     </div>
-
                     <div class="contact">
-                    <img id="mobile" src="images/contact_mobile.svg" alt="mobile">
-                    <a class="contact_text" href="tel:+(32)2 56 78 98">+(32)2 56 78 98</a>
+                        <img class="contact_img" id="mobile" src="images/contact_mobile.svg" alt="mobile">
+                        <a class="contact_text" href="tel:+(32)2567898">+(32)2 56 78 98</a>
+                    </div>
+                </div>
+                <img class="contact_location_img contact_img" src="images/location_contact.svg" alt="location_contact">
+            </section>
+
+            <!-- Section2 -->
+
+            <section class="infobar">
+                <div class="contact_section2_div">
+                    <div class="namemail">
+                        <input class="name_mail" type="text" placeholder="Name">
+                        <input class="name_mail" type="email" placeholder="Email">
+                    </div>
+                    <textarea class="message" placeholder="Message"></textarea>
+                    <button class="send">SEND MESSAGE</button>
+                </div>
+
+                <div class="contact_section2_mapmedia">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2975.4931707637!2d44.732387776079314!3d41.77458407125325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472023c2c32c9%3A0x7c69f69960c12793!2z4YOo4YOd4YOX4YOQIOGDoOGDo-GDoeGDl-GDkOGDleGDlOGDmuGDmOGDoSDhg6Xhg6Phg6nhg5AsIFQnYmlsaXNp!5e0!3m2!1sen!2sge!4v1704798311371!5m2!1sen!2sge"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <div class="footer_media_nav infobar_media">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fmedia smedia"></i></a>
+                        <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-square-whatsapp fmedia smedia"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fmedia smedia"></i></a>
                     </div>
                 </div>
 
-                <img class="contact_location_img" src="images/location_contact.svg" alt="location_contact">
             </section>
         </section>
-
-        <!-- Section2 -->
-        <section class="contact_section2">
-            <div class="contact_section2_div">
-                <div class="name_mail">
-                <input type="name">
-                <input type="email">
-                
-            </div>
-            <input type="message">
-            </div>
-
-<div class="contact_section2_mapmedia">
-
-
-</div>
-
-        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <!-- Footer -->
         <footer>
@@ -151,9 +145,9 @@
                     </ul>
 
                     <div class="footer_media_nav">
-                        <a href=""><i class="fa-brands fa-square-facebook fmedia"></i></a>
-                        <a href=""><i class="fa-brands fa-square-whatsapp fmedia"></i></a>
-                        <a href=""><i class="fa-brands fa-square-instagram fmedia"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fmedia"></i></a>
+                        <a href="https://www.whatsapp.com" target="_blank"><i class="fa-brands fa-square-whatsapp fmedia"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram fmedia"></i></a>
                     </div>
                 </nav>
 
