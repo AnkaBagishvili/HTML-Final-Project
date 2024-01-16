@@ -1,4 +1,17 @@
 /* 320-480px */
+
+@media(max-width:450px){
+.catalog_section3{
+padding: 40px 16px;
+    }
+    .hide450px{
+        display: none;
+    }
+}
+
+
+
+
 @media (max-width:400px) {
     header {
         padding: 28px 8px;
@@ -10,15 +23,154 @@
 
     }
 
-    .cart {
-        width: 32px;
-        height: 32px;
+    .media_nav {
+        column-gap: 16px;
     }
 
+    .media_nav_styles {
+        font-size: 16px;
+    }
+
+
+    .section1 {
+        padding: 32px 54px 336px 54px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .title_div {
+        column-gap: 16px;
+    }
+
+
+    .section1_title,
+    .collection {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .section3 {
+        padding: 32px 0 32px 8px;
+    }
+
+}
+
+
+@media(max-width:375px) {
+    .section2 {
+        padding: 32px 8px;
+    }
+
+    .section2_figcaption{
+        font-size: 16px;
+        line-height: 24px; 
+    }
+
+    .searchbar_email{
+        font-size: 12px;
+        line-height: 32px;
+    }
+   
+    
+}
+
+
+
+
+
+
+@media (max-width:370px) {
+    .section2 {
+        padding: 20px 0;
+        column-gap: 15px;
+    }
+
+    .grid_item_img,
+    .grid_item {
+        width: 140px;
+        height: 130px;
+    }
+
+    .catalog_pages {
+        column-gap: 45px;
+    }
+
+    .hide370px {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
     .section1 {
         padding: 32px 60px 336px 54px;
         background-size: cover;
         background-position: center;
+    }
+
+    .title_div {
+        column-gap: 16px;
     }
 
     .section1_title {
@@ -44,20 +196,6 @@
 
 @media (max-width:370px) {
 
-    .grid_item_img,
-    .grid_item {
-        width: 140px;
-        height: 130px;
-    }
-
-    .section2 {
-        padding: 20px 16px;
-        column-gap: 15px;
-    }
-
-    .section2_cards1 {
-        row-gap: 15px;
-    }
 
     .catalog_section3 {
         padding: 40px 16px;
@@ -72,11 +210,6 @@
         row-gap: 24px;
     }
 
-    .section2_title {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
     .searchbar {
         column-gap: 80px;
     }
@@ -89,16 +222,6 @@
 }
 
 
-@media (max-width:440px) {
-    .contact_section2 {
-        padding: 32px 40px;
-    }
 
-    .contact_title {
-        font-size: 16px;
-        line-height: 24px;
-    }
 
-    
-
-}
+} */

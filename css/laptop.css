@@ -1,11 +1,30 @@
 /* 769-1399px */
 
 
-@media (max-width: 1025px) {
-    .header_nav {
-        display: none;
+@media(max-width:1275px){
+    .section3{
+        padding-right: 0;
+    
+    }
+    .section3_cards {
+        overflow-x: scroll;
     }
 
+    .section3_card{
+        flex-shrink: 0;
+    }
+
+}
+
+@media(max-width:1125px){
+    .section3{
+        row-gap: 72px;
+    }
+}
+
+
+
+@media(max-width:1025px) {
     .burger_header {
         display: block;
     }
@@ -13,51 +32,56 @@
     .header_nav {
         background: #05BCCA;
         position: fixed;
-        top: 122.4px;
+        top: 96px;
         left: -100%;
         width: 50%;
         padding: 30px;
         transition: .5s linear;
+        width: 256px;
     }
 
     .header_ul {
         flex-direction: column;
         row-gap: 20px;
     }
-
     .show {
         left: 0;
     }
 
-    .media_nav {
-        column-gap: 16px;
-    }
-
-    .section1 {
-        padding: 72px 338px 372px 339px;
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-
-@media (max-width:1275px) {
-    .section2 {
-        padding: 96px 98px;
+    .header_li_text{
+        color: #C46A2B;
     }
 
     .section3 {
-        padding: 96px 32px;
+        padding-left: 32px;
+    }
+
+}
+
+@media(max-width:1440px){
+
+    .catalog_section3{
+        padding: 64px 45px 64px 45px;
+
+    }
+    .hide1440px{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:961px) {
+    .grid_item_img,
+    .grid_item {
+        width: 330px;
+        height: 240px;
     }
 
 }
 
 
-@media(max-width:1100px) {
-    footer {
-        padding: 48px 98px;
-    }
-}
+
 
 @media (max-width:840px) {
     footer {
@@ -69,27 +93,63 @@
     }
 }
 
-@media (max-width:1350px) {
-
-    .catalog_section3 {
-        padding-inline: 45px;
-    }
-
-    .none1 {
-        display: none;
-    }
-}
 
 
-@media(max-width:987px) {
-    .none2 {
-        display: none;
-    }
 
-}
 
-@media(max-width:780px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 
+
+@media(max-width:780px)
+ { .container{
+    padding-top: 100px;
+ }
     .contact_section1 {
         padding-right: 64px;
     }
-}
+} */
