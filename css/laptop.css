@@ -1,5 +1,15 @@
 /* 769-1399px */
 
+@media(max-width:1440px){
+
+    .catalog_section3{
+        padding: 64px 45px 64px 45px;
+
+    }
+    .hide1440px{
+        display: none;
+    }
+}
 
 @media(max-width:1275px){
     .section3{
@@ -58,18 +68,6 @@
 
 }
 
-@media(max-width:1440px){
-
-    .catalog_section3{
-        padding: 64px 45px 64px 45px;
-
-    }
-    .hide1440px{
-        display: none;
-    }
-}
-
-
 
 @media (max-width:961px) {
     .grid_item_img,
@@ -79,8 +77,6 @@
     }
 
 }
-
-
 
 
 @media (max-width:840px) {
@@ -127,29 +123,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* 
-
-@media(max-width:780px)
- { .container{
-    padding-top: 100px;
- }
-    .contact_section1 {
-        padding-right: 64px;
-    }
-} */

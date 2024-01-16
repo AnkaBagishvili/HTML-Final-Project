@@ -11,7 +11,6 @@ padding: 40px 16px;
 
 
 
-
 @media (max-width:400px) {
     header {
         padding: 28px 8px;
@@ -75,11 +74,6 @@ padding: 40px 16px;
    
     
 }
-
-
-
-
-
 
 @media (max-width:370px) {
     .section2 {
@@ -153,75 +147,3 @@ padding: 40px 16px;
 
 
 
-
-
-
-
-
-
-
-
-
-/* 
-    .section1 {
-        padding: 32px 60px 336px 54px;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .title_div {
-        column-gap: 16px;
-    }
-
-    .section1_title {
-        font-size: 24px;
-    }
-
-    .section1_title,
-    .collection,
-    .section4_title {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .catalog_pages {
-        column-gap: 45px;
-    }
-
-    .catalog_none {
-        display: none;
-    }
-
-}
-
-@media (max-width:370px) {
-
-
-    .catalog_section3 {
-        padding: 40px 16px;
-
-    }
-}
-
-
-
-@media (max-width:428px) {
-    .section4 {
-        row-gap: 24px;
-    }
-
-    .searchbar {
-        column-gap: 80px;
-    }
-}
-
-@media (max-width:325px) {
-    .searchbar_email {
-        margin-left: 2px;
-    }
-}
-
-
-
-
-} */
